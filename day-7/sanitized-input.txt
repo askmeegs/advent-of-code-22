@@ -1,11 +1,11 @@
 $ cd root
 $ ls
-dir $ cd root_fwbjchs
-dir $ cd root_hmnpr
-dir $ cd root_jtrbrcjl
-dir $ cd root_lcgv
-dir $ cd root_ldqc
-dir $ cd root_vrvl
+dir fwbjchs
+dir hmnpr
+dir jtrbrcjl
+dir lcgv1
+dir ldqc
+dir vrvl
 $ cd fwbjchs
 $ ls
 154619 wqdlv.mdw
@@ -17,9 +17,9 @@ $ ls
 $ cd ..
 $ cd jtrbrcjl
 $ ls
-dir $ cd jtrbrcjl_nmbfwc
-dir $ cd jtrbrcjl_whqb
-$ cd nmbfwc
+dir nmbfwc1
+dir whqb
+$ cd nmbfwc1
 $ ls
 242645 lcgv
 256365 wdzw.drg
@@ -30,39 +30,39 @@ $ ls
 48062 vpsgcl.gfh
 $ cd ..
 $ cd ..
-$ cd lcgv
+$ cd lcgv1
 $ ls
-dir $ cd lcgv_cthtlwds
-dir $ cd lcgv_grldv
-dir $ cd lcgv_lnztfr
-dir $ cd lcgv_vwhf
-dir $ cd lcgv_znmzg
+dir cthtlwds
+dir grldv
+dir lnztfr
+dir vwhf
+dir znmzg
 $ cd cthtlwds
 $ ls
-dir $ cd cthtlwds_dghvw
-dir $ cd cthtlwds_tfwgg
+dir dghvw
+dir tfwgg
 $ cd dghvw
 $ ls
 107090 jmj.lzh
 $ cd ..
 $ cd tfwgg
 $ ls
-dir $ cd tfwgg_ddnfmsjc
+dir ddnfmsjc
 252616 fvj
-dir $ cd tfwgg_gng
-dir $ cd tfwgg_lcgv
+dir gng
+dir lcgv2
 234528 mpb
 181198 pzqgf.cjd
-dir $ cd tfwgg_svvz
+dir svvz
 $ cd ddnfmsjc
 $ ls
-dir $ cd ddnfmsjc_hwmcsdvt
-dir $ cd ddnfmsjc_lcgv
+dir hwmcsdvt
+dir lcgv3
 $ cd hwmcsdvt
 $ ls
 208912 wdzw.drg
 $ cd ..
-$ cd lcgv
+$ cd lcgv3
 $ ls
 47252 tnd.ztd
 $ cd ..
@@ -71,7 +71,7 @@ $ cd gng
 $ ls
 44313 pzqgf.cjd
 $ cd ..
-$ cd lcgv
+$ cd lcgv2
 $ ls
 182616 wdzw.drg
 $ cd ..
@@ -85,8 +85,8 @@ $ cd ..
 $ cd grldv
 $ ls
 145761 mrqgpv.gsm
-dir $ cd grldv_wqdlv
-$ cd wqdlv
+dir wqdlv1
+$ cd wqdlv1
 $ ls
 96902 jhmsp
 157064 mrqgpv.gsm
@@ -101,17 +101,17 @@ $ ls
 $ cd ..
 $ cd vwhf
 $ ls
-dir $ cd vwhf_bgtgqzz
-dir $ cd vwhf_fcwzw
-dir $ cd vwhf_lcgv
-dir $ cd vwhf_mrlvtb
+dir bgtgqzz
+dir fcwzw
+dir lcgv4
+dir mrlvtb
 116134 mrqgpv.gsm
-dir $ cd vwhf_wszvqd
+dir wszvqd
 $ cd bgtgqzz
 $ ls
-dir $ cd bgtgqzz_dzpjg
+dir dzpjg
 283411 nmbfwc
-dir $ cd bgtgqzz_smhhzq
+dir smhhzq
 240602 ttlbcssq
 $ cd dzpjg
 $ ls
@@ -129,7 +129,7 @@ $ cd fcwzw
 $ ls
 59717 tpljg
 $ cd ..
-$ cd lcgv
+$ cd lcgv4
 $ ls
 148881 mrzcdzd.gjt
 68671 pzqgf.cjd
@@ -143,25 +143,25 @@ $ ls
 $ cd ..
 $ cd wszvqd
 $ ls
-dir $ cd wszvqd_bhhtbv
-dir $ cd wszvqd_lcpvwdq
+dir bhhtbv
+dir lcpvwdq
 $ cd bhhtbv
 $ ls
-dir $ cd bhhtbv_fbh
+dir fbh
 248604 ldscpjmp
-dir $ cd bhhtbv_nmbfwc
+dir nmbfwc2
 $ cd fbh
 $ ls
 256295 vpsgcl.gfh
 $ cd ..
-$ cd nmbfwc
+$ cd nmbfwc2
 $ ls
 83799 lcgv.vfc
 $ cd ..
 $ cd ..
 $ cd lcpvwdq
 $ ls
-dir $ cd lcpvwdq_lwhq
+dir lwhq
 212569 rfzrwc.clp
 23957 wdzw.drg
 $ cd lwhq
@@ -181,21 +181,21 @@ $ cd ..
 $ cd ..
 $ cd ldqc
 $ ls
-dir $ cd ldqc_dnzfqzwv
-dir $ cd ldqc_dvshtm
+dir dnzfqzwv
+dir dvshtm
 97119 gdnlwmbf
-dir $ cd ldqc_gqb
-dir $ cd ldqc_jclb
-dir $ cd ldqc_jgbsw
+dir gqb
+dir jclb
+dir jgbsw
 115989 lcgv.hlf
 255836 lchqqdh.wrn
-dir $ cd ldqc_qtdlb
-dir $ cd ldqc_rmljszcj
-dir $ cd ldqc_tqwpmw
-dir $ cd ldqc_vhdgcsw
+dir qtdlb
+dir rmljszcj
+dir tqwpmw
+dir vhdgcsw
 $ cd dnzfqzwv
 $ ls
-dir $ cd dnzfqzwv_tqv
+dir tqv
 $ cd tqv
 $ ls
 139984 dwhz.nhz
@@ -206,25 +206,25 @@ $ cd ..
 $ cd ..
 $ cd dvshtm
 $ ls
-dir $ cd dvshtm_lcgv
+dir lcgv5
 96767 mrqgpv.gsm
-dir $ cd dvshtm_qdmmpq
-$ cd lcgv
+dir qdmmpq
+$ cd lcgv5
 $ ls
 82949 bldf.hwn
 $ cd ..
 $ cd qdmmpq
 $ ls
-dir $ cd qdmmpq_lzgwflt
-dir $ cd qdmmpq_vgrdpbg
+dir lzgwflt
+dir vgrdpbg
 $ cd lzgwflt
 $ ls
 148651 tndbwbh
 $ cd ..
 $ cd vgrdpbg
 $ ls
-dir $ cd vgrdpbg_wqdlv
-$ cd wqdlv
+dir wqdlv2
+$ cd wqdlv2
 $ ls
 130393 rqjc.dnr
 $ cd ..
@@ -233,11 +233,11 @@ $ cd ..
 $ cd ..
 $ cd gqb
 $ ls
-dir $ cd gqb_jtf
-dir $ cd gqb_lvwpqs
+dir jtf
+dir lvwpqs
 212592 mrzcdzd.gjt
 70051 tqpwdwm.nzz
-dir $ cd gqb_vznbng
+dir vznbng
 52226 wbsdrsfh.tfw
 $ cd jtf
 $ ls
@@ -259,22 +259,22 @@ $ cd ..
 $ cd ..
 $ cd jclb
 $ ls
-dir $ cd jclb_bnz
-dir $ cd jclb_dtmtvbw
-dir $ cd jclb_hnlrtpbz
-dir $ cd jclb_pbb
-dir $ cd jclb_vhjwtq
-dir $ cd jclb_vpfggv
-dir $ cd jclb_zmflq
+dir bnz
+dir dtmtvbw
+dir hnlrtpbz
+dir pbb
+dir vhjwtq
+dir vpfggv
+dir zmflq1
 $ cd bnz
 $ ls
 199447 mrzcdzd.gjt
 $ cd ..
 $ cd dtmtvbw
 $ ls
-dir $ cd dtmtvbw_bjthn
-dir $ cd dtmtvbw_hzlhz
-dir $ cd dtmtvbw_zmflq
+dir bjthn
+dir hzlhz
+dir zmflq2
 $ cd bjthn
 $ ls
 272777 pgqfn.tdd
@@ -283,7 +283,7 @@ $ cd hzlhz
 $ ls
 50958 lcgv.gvq
 $ cd ..
-$ cd zmflq
+$ cd zmflq2
 $ ls
 207442 rrnwns.zpf
 15759 wdzw.drg
@@ -299,16 +299,16 @@ $ ls
 $ cd ..
 $ cd pbb
 $ ls
-dir $ cd pbb_wqdlv
-dir $ cd pbb_zmflq
-$ cd wqdlv
+dir wqdlv3
+dir zmflq3
+$ cd wqdlv3
 $ ls
-dir $ cd wqdlv_fgggwt
-dir $ cd wqdlv_hrghbhj
-dir $ cd wqdlv_nmbfwc
-dir $ cd wqdlv_tgmqnq
+dir fgggwt
+dir hrghbhj
+dir nmbfwc3
+dir tgmqnq
 146479 vpsgcl.gfh
-dir $ cd wqdlv_wqdlv
+dir wqdlv4
 $ cd fgggwt
 $ ls
 264892 wqdlv.zsp
@@ -316,17 +316,17 @@ $ cd ..
 $ cd hrghbhj
 $ ls
 116698 bfwtbg
-dir $ cd hrghbhj_lcgv
+dir lcgv6
 92758 pzqgf.cjd
-dir $ cd hrghbhj_tsdjgt
+dir tsdjgt
 284427 vpsgcl.gfh
 229621 wqdlv.pml
-dir $ cd hrghbhj_zfjjncvd
-$ cd lcgv
+dir zfjjncvd
+$ cd lcgv6
 $ ls
 30459 mrzcdzd.gjt
-dir $ cd lcgv_wqdlv
-$ cd wqdlv
+dir wqdlv5
+$ cd wqdlv5
 $ ls
 78475 wdzw.drg
 $ cd ..
@@ -341,20 +341,20 @@ $ ls
 59841 mrqgpv.gsm
 $ cd ..
 $ cd ..
-$ cd nmbfwc
+$ cd nmbfwc3
 $ ls
-dir $ cd nmbfwc_jtn
+dir jtn
 151403 mmjm
 240129 mmsb
 206021 nmbfwc.sds
 84439 vpsgcl.gfh
-dir $ cd nmbfwc_wqdlv
-dir $ cd nmbfwc_zvnrwfhn
+dir wqdlv6
+dir zvnrwfhn
 $ cd jtn
 $ ls
 23555 hmmt.gbb
 $ cd ..
-$ cd wqdlv
+$ cd wqdlv6
 $ ls
 69742 jppj.vvg
 $ cd ..
@@ -367,18 +367,18 @@ $ cd tgmqnq
 $ ls
 259985 bzqjt
 46410 flsm.szr
-dir $ cd tgmqnq_lcgv
+dir lcgv7
 89561 npfmc.vqs
 17503 vpsgcl.gfh
 73719 wqdlv.gjn
-$ cd lcgv
+$ cd lcgv7
 $ ls
-dir $ cd lcgv_dzfglmz
+dir dzfglmz
 177553 ffvzsgz
-dir $ cd lcgv_ljt
+dir ljt
 216443 mrzcdzd.gjt
 255381 nmbfwc
-dir $ cd lcgv_rplqnt
+dir rplqnt
 84061 zmflq.vlw
 $ cd dzfglmz
 $ ls
@@ -394,19 +394,19 @@ $ ls
 $ cd ..
 $ cd ..
 $ cd ..
-$ cd wqdlv
+$ cd wqdlv4
 $ ls
-dir $ cd wqdlv_chnpddzn
+dir chnpddzn
 272999 hbhwqt.fsl
 144546 jvhjnsz
-dir $ cd wqdlv_ppsm
+dir ppsm
 102615 pzqgf.cjd
-dir $ cd wqdlv_swdnss
+dir swdnss
 $ cd chnpddzn
 $ ls
 256977 pzqgf.cjd
-dir $ cd chnpddzn_wqdlv
-$ cd wqdlv
+dir wqdlv7
+$ cd wqdlv7
 $ ls
 6565 hlcqgmj
 $ cd ..
@@ -414,10 +414,10 @@ $ cd ..
 $ cd ppsm
 $ ls
 238358 fvw.bzw
-dir $ cd ppsm_ggjnl
+dir ggjnl
 265010 mrzcdzd.gjt
 201818 rfzrwc
-dir $ cd ppsm_ssggblm
+dir ssggblm
 $ cd ggjnl
 $ ls
 45841 nlnrrqf.fwn
@@ -430,7 +430,7 @@ $ cd ..
 $ cd ..
 $ cd swdnss
 $ ls
-dir $ cd swdnss_bmrzhjs
+dir bmrzhjs
 $ cd bmrzhjs
 $ ls
 269825 mrqgpv.gsm
@@ -439,37 +439,37 @@ $ cd ..
 $ cd ..
 $ cd ..
 $ cd ..
-$ cd zmflq
+$ cd zmflq3
 $ ls
-dir $ cd zmflq_hnrnldw
-dir $ cd zmflq_lcgv
-dir $ cd zmflq_mpmcghz
-dir $ cd zmflq_nbbv
-dir $ cd zmflq_qsnfzp
-dir $ cd zmflq_tntnjg
-dir $ cd zmflq_wqdlv
+dir hnrnldw
+dir lcgv8
+dir mpmcghz
+dir nbbv
+dir qsnfzp
+dir tntnjg
+dir wqdlv8
 $ cd hnrnldw
 $ ls
 102631 wjbbjwtm.vvz
 $ cd ..
-$ cd lcgv
+$ cd lcgv8
 $ ls
-dir $ cd lcgv_dzz
-dir $ cd lcgv_hbzzf
-dir $ cd lcgv_jncrbhc
+dir dzz
+dir hbzzf
+dir jncrbhc
 205204 lqnrp
-dir $ cd lcgv_mzzpfnr
-dir $ cd lcgv_nmbfwc
-dir $ cd lcgv_rfzrwc
-dir $ cd lcgv_rnrmhfz
-dir $ cd lcgv_zmflq
+dir mzzpfnr
+dir nmbfwc4
+dir rfzrwc1
+dir rnrmhfz
+dir zmflq4
 $ cd dzz
 $ ls
-dir $ cd dzz_cvvdv
+dir cvvdv
 226221 nggtqdzn
 94641 npmpjnjm.bzg
-dir $ cd dzz_rsdw
-dir $ cd dzz_sjrb
+dir rsdw
+dir sjrb
 41983 vfdz.ngz
 271561 zmflq.zsc
 $ cd cvvdv
@@ -480,8 +480,8 @@ $ ls
 $ cd ..
 $ cd rsdw
 $ ls
-dir $ cd rsdw_lcgv
-$ cd lcgv
+dir lcgv9
+$ cd lcgv9
 $ ls
 37080 nmbfwc
 $ cd ..
@@ -502,35 +502,35 @@ $ ls
 $ cd ..
 $ cd mzzpfnr
 $ ls
-dir $ cd mzzpfnr_hmjzlr
-dir $ cd mzzpfnr_lcgv
-dir $ cd mzzpfnr_mczs
-dir $ cd mzzpfnr_wqdlv
+dir hmjzlr
+dir lcgv10
+dir mczs
+dir wqdlv9
 90391 wqdlv.pdr
 144119 zmflq
 $ cd hmjzlr
 $ ls
 268342 svsd.jcd
 $ cd ..
-$ cd lcgv
+$ cd lcgv10
 $ ls
-dir $ cd lcgv_pwhl
-dir $ cd lcgv_rfzrwc
+dir pwhl
+dir rfzrwc2
 $ cd pwhl
 $ ls
 42795 gvmt
 82576 wdzw.drg
 $ cd ..
-$ cd rfzrwc
+$ cd rfzrwc2
 $ ls
-dir $ cd rfzrwc_jjl
-dir $ cd rfzrwc_mqp
+dir jjl
+dir mqp
 156985 mrqgpv.gsm
-dir $ cd rfzrwc_wptr
-dir $ cd rfzrwc_wqdlv
+dir wptr
+dir wqdlv10
 $ cd jjl
 $ ls
-dir $ cd jjl_jrjjr
+dir jrjjr
 104785 nmbfwc
 20108 wdzw.drg
 $ cd jrjjr
@@ -546,7 +546,7 @@ $ cd wptr
 $ ls
 46279 vjqlvhrh.njr
 $ cd ..
-$ cd wqdlv
+$ cd wqdlv10
 $ ls
 104474 vpsgcl.gfh
 $ cd ..
@@ -555,12 +555,12 @@ $ cd ..
 $ cd mczs
 $ ls
 186843 mrqgpv.gsm
-dir $ cd mczs_pjm
-dir $ cd mczs_thbwb
+dir pjm
+dir thbwb
 $ cd pjm
 $ ls
-dir $ cd pjm_wqdlv
-$ cd wqdlv
+dir wqdlv11
+$ cd wqdlv11
 $ ls
 201647 sgtt
 $ cd ..
@@ -570,15 +570,15 @@ $ ls
 146494 mrqgpv.gsm
 $ cd ..
 $ cd ..
-$ cd wqdlv
+$ cd wqdlv9
 $ ls
 103876 mrqgpv.gsm
 $ cd ..
 $ cd ..
-$ cd nmbfwc
+$ cd nmbfwc4
 $ ls
-dir $ cd nmbfwc_fgctdds
-dir $ cd nmbfwc_rwgscjbv
+dir fgctdds
+dir rwgscjbv
 $ cd fgctdds
 $ ls
 205015 bwvshdcz.dpp
@@ -588,32 +588,32 @@ $ ls
 242899 rbmtfdhp
 $ cd ..
 $ cd ..
-$ cd rfzrwc
+$ cd rfzrwc1
 $ ls
-dir $ cd rfzrwc_bnsgzwhn
+dir bnsgzwhn
 228624 ffj
-dir $ cd rfzrwc_lcgv
-dir $ cd rfzrwc_rcvwcbfd
+dir lcgv11
+dir rcvwcbfd
 268775 vbhsh.nnz
 129373 vpsgcl.gfh
 68919 wqdlv
-dir $ cd rfzrwc_wqmdw
-dir $ cd rfzrwc_zmflq
+dir wqmdw
+dir zmflq5
 153277 zmflq.frv
 $ cd bnsgzwhn
 $ ls
 9892 ltcrrzhb.njc
-dir $ cd bnsgzwhn_wpwmflr
-dir $ cd bnsgzwhn_zmflq
+dir wpwmflr
+dir zmflq6
 $ cd wpwmflr
 $ ls
 274142 bfj.fbw
-dir $ cd wpwmflr_rfzrwc
-dir $ cd wpwmflr_srnm
-$ cd rfzrwc
+dir rfzrwc3
+dir srnm
+$ cd rfzrwc3
 $ ls
 161517 mrqgpv.gsm
-dir $ cd rfzrwc_zbhgwsd
+dir zbhgwsd
 $ cd zbhgwsd
 $ ls
 43750 vbqmpbcr.zwz
@@ -621,27 +621,27 @@ $ cd ..
 $ cd ..
 $ cd srnm
 $ ls
-dir $ cd srnm_rvvtgr
+dir rvvtgr
 $ cd rvvtgr
 $ ls
 164604 wzgbzbn
 $ cd ..
 $ cd ..
 $ cd ..
-$ cd zmflq
+$ cd zmflq6
 $ ls
 184482 mrqgpv.gsm
 80280 pzqgf.cjd
 183303 zln.tbm
 $ cd ..
 $ cd ..
-$ cd lcgv
+$ cd lcgv11
 $ ls
-dir $ cd lcgv_lcgv
-dir $ cd lcgv_pqttlp
-$ cd lcgv
+dir lcgv12
+dir pqttlp
+$ cd lcgv12
 $ ls
-dir $ cd lcgv_bpjzg
+dir bpjzg
 $ cd bpjzg
 $ ls
 99853 wdzw.drg
@@ -649,7 +649,7 @@ $ cd ..
 $ cd ..
 $ cd pqttlp
 $ ls
-dir $ cd pqttlp_bgvhcgfn
+dir bgvhcgfn
 45115 mrzcdzd.gjt
 248058 qnvhgpw.ddw
 112129 rfzrwc
@@ -661,12 +661,12 @@ $ cd ..
 $ cd ..
 $ cd rcvwcbfd
 $ ls
-dir $ cd rcvwcbfd_vtrtt
-dir $ cd rcvwcbfd_wgp
+dir vtrtt
+dir wgp
 $ cd vtrtt
 $ ls
 138009 pzqgf.cjd
-dir $ cd vtrtt_ztsvzpn
+dir ztsvzpn
 $ cd ztsvzpn
 $ ls
 51632 vpsgcl.gfh
@@ -679,17 +679,17 @@ $ cd ..
 $ cd ..
 $ cd wqmdw
 $ ls
-dir $ cd wqmdw_zmrdf
+dir zmrdf
 $ cd zmrdf
 $ ls
-dir $ cd zmrdf_qqgw
+dir qqgw
 $ cd qqgw
 $ ls
 58554 gqpqvplc.zvr
 $ cd ..
 $ cd ..
 $ cd ..
-$ cd zmflq
+$ cd zmflq5
 $ ls
 224544 mrzcdzd.gjt
 254976 pzqgf.cjd
@@ -699,7 +699,7 @@ $ cd rnrmhfz
 $ ls
 19759 lcgv.stz
 $ cd ..
-$ cd zmflq
+$ cd zmflq4
 $ ls
 22390 nftzlqg.qmp
 80148 wqdlv
@@ -714,8 +714,8 @@ $ cd nbbv
 $ ls
 115297 bqcrc.prw
 58148 pvzv.qwf
-dir $ cd nbbv_wqdlv
-$ cd wqdlv
+dir wqdlv12
+$ cd wqdlv12
 $ ls
 145268 mrzcdzd.gjt
 35745 nmbfwc.hgv
@@ -731,12 +731,12 @@ $ ls
 19543 mrqgpv.gsm
 667 wqdlv
 $ cd ..
-$ cd wqdlv
+$ cd wqdlv8
 $ ls
-dir $ cd wqdlv_dqpgtmdl
-dir $ cd wqdlv_jrqsqrv
+dir dqpgtmdl
+dir jrqsqrv
 189727 mrzcdzd.gjt
-dir $ cd wqdlv_rfzrwc
+dir rfzrwc4
 208280 vpsgcl.gfh
 281557 vwsljgn.mwd
 119829 zmflq.hgd
@@ -749,14 +749,14 @@ $ ls
 238387 mvllmjc.wvm
 213020 nqp.gdr
 157257 nzdmplg.zqh
-dir $ cd jrqsqrv_ppwcgc
+dir ppwcgc
 24914 pzqgf.cjd
-dir $ cd jrqsqrv_zjr
-dir $ cd jrqsqrv_zmflq
+dir zjr
+dir zmflq7
 $ cd ppwcgc
 $ ls
 249714 bsrnnhrr.spq
-dir $ cd ppwcgc_cvnd
+dir cvnd
 $ cd cvnd
 $ ls
 248610 pzqgf.cjd
@@ -766,27 +766,27 @@ $ cd zjr
 $ ls
 224145 smwb.mmz
 $ cd ..
-$ cd zmflq
+$ cd zmflq7
 $ ls
 250519 ftggp
 147304 vpsgcl.gfh
 238706 wdzw.drg
 258323 wqdlv.bjp
-dir $ cd zmflq_wqgngf
+dir wqgngf
 $ cd wqgngf
 $ ls
 14302 bdz.jdw
-dir $ cd wqgngf_jpgfsgd
-dir $ cd wqgngf_ldwgr
+dir jpgfsgd
+dir ldwgr
 22718 nwfh.nzf
 $ cd jpgfsgd
 $ ls
-dir $ cd jpgfsgd_lcgv
-dir $ cd jpgfsgd_qbrwz
-$ cd lcgv
+dir lcgv13
+dir qbrwz
+$ cd lcgv13
 $ ls
 284229 qhwc.zpq
-dir $ cd lcgv_wsjs
+dir wsjs
 $ cd wsjs
 $ ls
 111635 lcgv
@@ -804,9 +804,9 @@ $ cd ..
 $ cd ..
 $ cd ..
 $ cd ..
-$ cd rfzrwc
+$ cd rfzrwc4
 $ ls
-dir $ cd rfzrwc_lmcg
+dir lmcg
 $ cd lmcg
 $ ls
 32819 sjjztgr.rfj
@@ -817,7 +817,7 @@ $ cd ..
 $ cd ..
 $ cd vhjwtq
 $ ls
-dir $ cd vhjwtq_qgqbrv
+dir qgqbrv
 $ cd qgqbrv
 $ ls
 176900 gwbnqtn.rnj
@@ -827,9 +827,9 @@ $ cd vpfggv
 $ ls
 144809 cmc.srv
 117565 nhddq.bqn
-dir $ cd vpfggv_scw
-dir $ cd vpfggv_tpmnhdc
-dir $ cd vpfggv_vvp
+dir scw
+dir tpmnhdc
+dir vvp
 71774 wqdlv.gdm
 61647 zmflq
 174026 zmflq.wzn
@@ -840,9 +840,9 @@ $ ls
 $ cd ..
 $ cd tpmnhdc
 $ ls
-dir $ cd tpmnhdc_fjwr
-dir $ cd tpmnhdc_lcllz
-dir $ cd tpmnhdc_nmbfwc
+dir fjwr
+dir lcllz
+dir nmbfwc5
 $ cd fjwr
 $ ls
 133256 pwgtqz.dpm
@@ -850,37 +850,37 @@ $ ls
 $ cd ..
 $ cd lcllz
 $ ls
-dir $ cd lcllz_flwws
+dir flwws
 210654 qmbfw.bsv
-dir $ cd lcllz_zmflq
+dir zmflq8
 $ cd flwws
 $ ls
 222222 nmbfwc.vhj
 $ cd ..
-$ cd zmflq
+$ cd zmflq8
 $ ls
 235011 jlzfbt.wlb
 49525 rfzrwc.fnc
 $ cd ..
 $ cd ..
-$ cd nmbfwc
+$ cd nmbfwc5
 $ ls
 133730 dqdqhvm
-dir $ cd nmbfwc_lcgv
+dir lcgv14
 188291 nmbfwc.qhv
 110039 wdzw.drg
 249996 wqdlv
-dir $ cd nmbfwc_zmflq
-dir $ cd nmbfwc_zppcvq
-$ cd lcgv
+dir zmflq9
+dir zppcvq
+$ cd lcgv14
 $ ls
-dir $ cd lcgv_wths
+dir wths
 $ cd wths
 $ ls
 120313 jdbtlf.rrn
 $ cd ..
 $ cd ..
-$ cd zmflq
+$ cd zmflq9
 $ ls
 124906 dqdcpzh
 $ cd ..
@@ -892,38 +892,38 @@ $ cd ..
 $ cd ..
 $ cd vvp
 $ ls
-dir $ cd vvp_fsw
+dir fsw
 194927 hvlm.pbd
-dir $ cd vvp_nmbfwc
+dir nmbfwc6
 230376 pgsq
 $ cd fsw
 $ ls
 111889 nmbfwc.smt
-dir $ cd fsw_rfzrwc
-$ cd rfzrwc
+dir rfzrwc5
+$ cd rfzrwc5
 $ ls
 282718 gbvss
 $ cd ..
 $ cd ..
-$ cd nmbfwc
+$ cd nmbfwc6
 $ ls
-dir $ cd nmbfwc_fvh
+dir fvh
 160971 ngqvztv.hfg
-dir $ cd nmbfwc_rfzrwc
+dir rfzrwc6
 $ cd fvh
 $ ls
 256956 mrqgpv.gsm
 14363 vbvsncs.jjw
 172959 wdzw.drg
 $ cd ..
-$ cd rfzrwc
+$ cd rfzrwc6
 $ ls
 257264 vpsgcl.gfh
 $ cd ..
 $ cd ..
 $ cd ..
 $ cd ..
-$ cd zmflq
+$ cd zmflq1
 $ ls
 10486 lbdtpnps.jhq
 118145 rlgjvn.nvf
@@ -932,18 +932,18 @@ $ cd ..
 $ cd ..
 $ cd jgbsw
 $ ls
-dir $ cd jgbsw_cfdljgh
+dir cfdljgh
 214846 dwqdqv.ftq
-dir $ cd jgbsw_rfzrwc
+dir rfzrwc7
 147094 vpsgcl.gfh
 $ cd cfdljgh
 $ ls
 261471 mrqgpv.gsm
 $ cd ..
-$ cd rfzrwc
+$ cd rfzrwc7
 $ ls
-dir $ cd rfzrwc_fcvfw
-dir $ cd rfzrwc_gvqrwgrs
+dir fcvfw
+dir gvqrwgrs
 57417 zfqrqv.fvp
 $ cd fcvfw
 $ ls
@@ -951,7 +951,7 @@ $ ls
 $ cd ..
 $ cd gvqrwgrs
 $ ls
-dir $ cd gvqrwgrs_sgfltf
+dir sgfltf
 $ cd sgfltf
 $ ls
 204207 mstlc.wtj
@@ -961,12 +961,12 @@ $ cd ..
 $ cd ..
 $ cd qtdlb
 $ ls
-dir $ cd qtdlb_gjpmcvwp
-dir $ cd qtdlb_nsjlcmfz
-dir $ cd qtdlb_wqdlv
+dir gjpmcvwp
+dir nsjlcmfz
+dir wqdlv13
 $ cd gjpmcvwp
 $ ls
-dir $ cd gjpmcvwp_cjjdzcwm
+dir cjjdzcwm
 $ cd cjjdzcwm
 $ ls
 233873 pdnsrz.vfp
@@ -975,15 +975,15 @@ $ cd ..
 $ cd nsjlcmfz
 $ ls
 53472 nmbfwc
-dir $ cd nsjlcmfz_qvpj
+dir qvpj
 $ cd qvpj
 $ ls
 150929 mrzcdzd.gjt
 $ cd ..
 $ cd ..
-$ cd wqdlv
+$ cd wqdlv13
 $ ls
-dir $ cd wqdlv_qccsnjd
+dir qccsnjd
 $ cd qccsnjd
 $ ls
 65908 hsrqhn.hjr
@@ -993,16 +993,16 @@ $ cd ..
 $ cd ..
 $ cd rmljszcj
 $ ls
-dir $ cd rmljszcj_jnstrbj
+dir jnstrbj
 172566 nbtszsgl
-dir $ cd rmljszcj_wqdlv
+dir wqdlv14
 $ cd jnstrbj
 $ ls
 232158 fgccmchh.wqg
 236339 mrqgpv.gsm
 281875 rfzrwc.sfd
 $ cd ..
-$ cd wqdlv
+$ cd wqdlv14
 $ ls
 58492 wdzw.drg
 213853 wqdlv.zlz
@@ -1015,10 +1015,10 @@ $ cd ..
 $ cd vhdgcsw
 $ ls
 125104 crfw.sfv
-dir $ cd vhdgcsw_flhbhzlt
+dir flhbhzlt
 139949 mrqgpv.gsm
-dir $ cd vhdgcsw_rfzrwc
-dir $ cd vhdgcsw_rnz
+dir rfzrwc8
+dir rnz
 97174 zmflq.vpn
 $ cd flhbhzlt
 $ ls
@@ -1026,11 +1026,11 @@ $ ls
 $ cd ..
 $ cd rfzrwc
 $ ls
-dir $ cd rfzrwc_lcgv
-$ cd lcgv
+dir lcgv15
+$ cd lcgv15
 $ ls
-dir $ cd lcgv_dlpng
-dir $ cd lcgv_glqrj
+dir dlpng
+dir glqrj
 178245 lcgv
 106863 nmbfwc.fgr
 $ cd dlpng
@@ -1046,9 +1046,9 @@ $ cd ..
 $ cd ..
 $ cd rnz
 $ ls
-dir $ cd rnz_chfccv
-dir $ cd rnz_cmsccq
-dir $ cd rnz_zmflq
+dir chfccv
+dir cmsccq
+dir zmflq10
 $ cd chfccv
 $ ls
 13688 mrqgpv.gsm
@@ -1058,7 +1058,7 @@ $ cd cmsccq
 $ ls
 94122 dzpsltth
 190025 rfzrwc
-dir $ cd cmsccq_twqt
+dir twqt
 12230 wgghbcz.tph
 60111 wqdlv
 $ cd twqt
@@ -1066,7 +1066,7 @@ $ ls
 109250 wdzw.drg
 $ cd ..
 $ cd ..
-$ cd zmflq
+$ cd zmflq10
 $ ls
 174075 wdzw.drg
 $ cd ..
@@ -1075,9 +1075,9 @@ $ cd ..
 $ cd ..
 $ cd vrvl
 $ ls
-dir $ cd vrvl_pnfv
+dir pnfv
 210089 rfzrwc
-dir $ cd vrvl_stcfmz
+dir stcfmz
 $ cd pnfv
 $ ls
 183315 rhmztnnh
