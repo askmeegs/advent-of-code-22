@@ -21,7 +21,7 @@ The task is STILL to track this tail.
 """
 
 def main(): 
-    with open('small-part-two.txt', 'r') as f:
+    with open('input.txt', 'r') as f:
         lines = f.readlines()
         lines = [line.strip() for line in lines]
     moves = []
@@ -45,7 +45,7 @@ def main():
     ]
 
     v = {0: {0: 1}} # still track tail visited like before. 
-    for move in moves[:2]:
+    for move in moves:
         direction = move[0]
         distance = int(move[1])
         print("\n\n ⭐️ New Move: head moves {} {}. Starting positions:".format(direction, distance))
@@ -54,6 +54,7 @@ def main():
     result = get_final_result(v)
     print(v)
     print(result)
+    print("\n\n 🏆 I'm done! v is {}, result is {}".format(v, result))
 
 
 def execute_move(direction, distance, positions, v):
@@ -178,8 +179,28 @@ def follow(cur_head, cur_tail):
         print("♞ head is one step down and 2 left of head, move tail down and left by 1. ↙️")
         tI -= 1
         tJ -= 1
+    # possibly more moves 
+    # when you're 2x2 away ("extreme square knight"), move diagonally in that direction, so that H and T are touching diagonally. 
+    elif hI == tI + 2 and hJ == tJ + 2:
+        print("🛹 Extreme knight! head is two step above and 2 right of head, move tail up and right by 1. ↗️")
+        tI += 1
+        tJ += 1
+    elif hI == tI + 2 and hJ == tJ - 2:
+        print("🛹 Extreme knight! head is two step above and 2 left of head, move tail up and left by 1. ↖️")
+        tI += 1
+        tJ -= 1
+    elif hI == tI - 2 and hJ == tJ + 2:
+        print("🛹 Extreme knight! head is two step down and 2 right of head, move tail down and right by 1. ↘️")
+        tI -= 1
+        tJ += 1
+    elif hI == tI - 2 and hJ == tJ - 2:
+        print("🛹 Extreme knight! head is two step down and 2 left of head, move tail down and left by 1. ↙️")
+        tI -= 1
+        tJ -= 1
+
     else:
         print("\t⚠️ no move recognized, this is a bug.") 
+
 
     return [hI, hJ], [tI, tJ]
 
