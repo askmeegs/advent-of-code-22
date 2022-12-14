@@ -37,7 +37,7 @@ RETURN THE SUM OF THEIR INDICES. (first pair index 1)
 import ast 
 
 def main(): 
-    with open('small.txt', 'r') as f:
+    with open('input.txt', 'r') as f:
         lines = f.readlines()
         lines = [line.strip() for line in lines]
         # get a list of pairs 
