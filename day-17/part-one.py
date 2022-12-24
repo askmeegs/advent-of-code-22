@@ -83,7 +83,7 @@ With the small L/R pattern, 2022
 """
 
 def main(): 
-    with open('input.txt', 'r') as f:
+    with open('small.txt', 'r') as f:
         lines = f.readlines()
         lines = [line.strip() for line in lines]
     line = lines[0] 
@@ -95,7 +95,9 @@ def main():
     """
 
     # initialize the chamber with 5 empty rows 
-    print("Initializing the empty chamber with height 0...")
+    # print("Initializing the empty chamber with height 0...")
+    # after rock # ___ the height increased by ___ 
+    diffs = []
     chamber = []
     prettyprint(chamber) 
 
@@ -104,15 +106,15 @@ def main():
     p_index = -1 # index within the pattern, which we loop through 
 
     # eventually this while loop will go up to 2023 
-    while r_index < 1000000000000:
+    while r_index < 19:
         # 1. rock appears 
         r_index += 1 
-        print("🪨 On rock #{}".format(r_index))
+        # print("🪨 On rock #{}".format(r_index))
         if r_looper == 5: 
             r_looper = 1
         else:
             r_looper += 1
-        print("⭐️⭐️⭐️⭐️⭐️⭐️ New rock!! 🪨 Placing rock {} at the top ⭐️⭐️⭐️⭐️⭐️⭐️⭐️".format(r_index))
+        # print("⭐️⭐️⭐️⭐️⭐️⭐️ New rock!! 🪨 Placing rock {} at the top ⭐️⭐️⭐️⭐️⭐️⭐️⭐️".format(r_index))
         if r_looper == 1:
             # horizontal bar 
             coords = [[0, 2], [0, 3], [0, 4], [0, 5]]
@@ -138,10 +140,11 @@ def main():
         # execute 2-3 until rock settles...  updated chamber and coords along the way
         # 2. rock moves L/R
         # 3. rock falls D
+
         while True:
             # increment pattern
             if p_index == len(pattern)-1:
-                print("🚨 pattern is done! starting back at 0")
+                diffs.append([r_index, len(chamber)])
                 p_index = 0
             else:
                 p_index += 1
@@ -163,8 +166,10 @@ def main():
                 chamber = chop_empty_rows(chamber)
                 # prettyprint(chamber)
                 break
-    # we're done if we've placed X rocks. 
-    # print the chamber height after that # of rocks.
+    actual_diffs = []
+    for i in range(1, len(diffs)):
+        print("After rock #{} the height increased by {}, to {}".format(diffs[i][0], diffs[i][1]-diffs[i-1][1], diffs[i][1]))
+
     print("🏁 DONE - The height of the chamber after {} rocks is: {}".format(r_index, len(chamber)))
 
 
@@ -178,18 +183,19 @@ def chop_empty_rows(chamber):
             i += 1 
         else:
             break
-    print("I need to pop {} rows.".format(pop))
+    # print("I need to pop {} rows.".format(pop))
     for _ in range(0, pop):
         chamber.pop(0)
     return chamber
 
 def prettyprint(chamber): 
-    # print rows from top to bottom
-    for row in chamber: 
-        print("|{}|".format("".join(row)))
-    # print floor 
-    print("+-------+")
-    print("\n")
+    return
+    # # print rows from top to bottom
+    # for row in chamber: 
+    #     print("|{}|".format("".join(row)))
+    # # print floor 
+    # print("+-------+")
+    # print("\n")
         
 
 """
@@ -256,10 +262,10 @@ def move_down(chamber, coords):
     # check if we can move 
     for c in coords:
         if c[0] == len(chamber)-1:
-            print("❌ Rock is stuck at the bottom! Done placing this rock.")
+            # print("❌ Rock is stuck at the bottom! Done placing this rock.")
             return chamber, coords, True
         if chamber[c[0]+1][c[1]] == "#":
-            print("⬇️ 🪨 Rock is about to bump against another rock! Done placing this rock.")
+            # print("⬇️ 🪨 Rock is about to bump against another rock! Done placing this rock.")
             return chamber, coords, True
     # safely move down
     for i, c in enumerate(coords):
