@@ -85,7 +85,7 @@ def main():
             elif op == "/":
                 results[node] = results[child1] / results[child2]
     print(results)
-    print(results["root"])
+    print(results["hzgl"])
 
 # execute main
 if __name__ == '__main__':
