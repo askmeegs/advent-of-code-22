@@ -24,6 +24,8 @@ humn is contained in the rvrh branch, so we need to match rvrh to hzgl's value
 
 
 from anytree import Node, RenderTree, DoubleStyle, PostOrderIter, PreOrderIter
+import sympy
+
 
 def main(): 
     with open('input.txt', 'r') as f:
@@ -115,16 +117,34 @@ def main():
         v = raw_nodes[node]
         branch_results[node] = v
     branch_results["humn"] = "x"
-    print("POST TRAVERSAL: ")
-    print(pre)
+
+    print("👋🏼 Welcome to the tree solver! I'm going to find the desired value of node='humn' to match its sibling branch value, 5697586809113.")
+    print("I'm going to pre-order traversal over the tree, and recursively generate a simple algebra problem to give you the answer...")
 
     prob = create_math_problem("rvrh", branch_results)
+    # sleep 2 seconds
+    import time
+    # time.sleep(2)
+
+    print("🤔 Here's your math problem!")
+
     
     # now we have a full algebra problem! 
     prob = str(target) + " = " + prob
-    # find the value of x 
+    # remove all whitespace from prob
+    prob = prob.replace(" ", "")
     print(prob)
-    
+    # given a string algebra problem, solve for x 
+    # solve for x
+    x = solve(prob)
+    print("🎉 The answer is: " + str(x))
+
+
+def solve(algebra):
+    # solve for x
+    import sympy
+    x = sympy.Symbol('x')
+    return sympy.solve(algebra, x)[0]
 
 """
 pppw: ['cczh', '/', 'lfqf']
